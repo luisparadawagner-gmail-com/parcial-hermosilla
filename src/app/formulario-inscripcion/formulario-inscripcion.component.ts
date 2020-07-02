@@ -2,6 +2,7 @@ import { Alumno } from './../clases/alumno';
 import { Component, OnInit } from '@angular/core';
 import { FormBuilder, FormGroup, Validators } from '@angular/forms';
 import { ActivatedRoute, Router } from '@angular/router';
+import {MatSelectModule} from '@angular/material/select';
 
 @Component({
   selector: 'app-formulario-inscripcion',

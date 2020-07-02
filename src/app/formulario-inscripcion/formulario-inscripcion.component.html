@@ -12,7 +12,11 @@
             <input type="text" formControlName="edad">
         </label>
         <label>Materia
-            <input type="text" formControlName="materia">
+            <select matNativeControl required formControlName="materia">
+                <option value="MongoDB">MongoDB</option>
+                <option value="Javascript">Javascript</option>
+                <option value="NodeJS">NodeJS</option>
+              </select>
         </label>
         <label>Año de Cursada
             <input type="text" formControlName="anioCursada">
@@ -25,14 +29,13 @@
 
 </form>
 
-<div class="example-container">
-    <mat-form-field appearance="fill">
-      <mat-label>Input</mat-label>
-      <input matInput>
-    </mat-form-field>
-    <br>
-    <mat-form-field appearance="fill">
-      <mat-label>Textarea</mat-label>
-      <textarea matInput></textarea>
-    </mat-form-field>
-  </div>
+<h4>Basic native select</h4>
+<mat-form-field appearance="fill">
+  <mat-label>Cars</mat-label>
+  <select matNativeControl required>
+    <option value="volvo">Volvo</option>
+    <option value="saab">Saab</option>
+    <option value="mercedes">Mercedes</option>
+    <option value="audi">Audi</option>
+  </select>
+</mat-form-field>
