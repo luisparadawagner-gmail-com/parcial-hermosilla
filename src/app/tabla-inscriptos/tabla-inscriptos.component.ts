@@ -10,7 +10,7 @@ import { LeerListadoService } from '../servicios/leer-listado.service';
 })
 export class TablaInscriptosComponent implements OnInit {
 
-  displayedColumns: string[] = ['nombre', 'apellido', 'edad', 'materia', 'anoCursada', 'accion'];
+  displayedColumns: string[] = ['nombre', 'apellido', 'edad', 'materia', 'anioCursada', 'accion'];
   dataSource: any[] = [];
 
   constructor(private router: Router, private route: ActivatedRoute, private leerListadoService: LeerListadoService) { }
@@ -49,7 +49,7 @@ export class TablaInscriptosComponent implements OnInit {
       apellido: elemento.apellido,
       edad: elemento.edad,
       materia: elemento.materia,
-      añoCursada: elemento.añoCursada
+      anioCursada: elemento.anioCursada
     }
 
     this.router.navigate(['app-formulario-inscripcion', alumnoTemp])

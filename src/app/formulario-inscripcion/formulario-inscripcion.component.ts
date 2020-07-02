@@ -27,7 +27,7 @@ export class FormularioInscripcionComponent implements OnInit {
       apellido: [alumno ? alumno.apellido : '' ],
       edad: [alumno ? alumno.edad : '' ],
       materia: [alumno ? alumno.materia : '' ],
-      añoCursada: [alumno ? alumno.añoCursada : '' ]
+      anioCursada: [alumno ? alumno.anioCursada : '' ]
     });
   }
 

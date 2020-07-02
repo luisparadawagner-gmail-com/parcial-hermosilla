@@ -1,10 +1,10 @@
 [
     { "nombre" : "maría" , "apellido" : "rivarola" , "edad" : 17 ,
-    "materia" : "MongoDB" , "añoCursada" : "Segundo" },
+    "materia" : "MongoDB" , "anioCursada" : "Segundo" },
     { "nombre" : "roberto" , "apellido" : "carlos" , "edad" : 37 ,
-    "materia" : "Javascript" , "añoCursada" : "Primero" },
+    "materia" : "Javascript" , "anioCursada" : "Primero" },
     { "nombre" : "julio" , "apellido" : "iglesias" , "edad" : 59 ,
-    "materia" : "NodeJS" , "añoCursada" : "Tercero" },
+    "materia" : "NodeJS" , "anioCursada" : "Tercero" },
     { "nombre" : "giemena" , "apellido" : "gutierrez" , "edad" : 29 ,
-    "materia" : "ExpressJS" , "añoCursada" : "Tercero" }
+    "materia" : "ExpressJS" , "anioCursada" : "Tercero" }
     ]
