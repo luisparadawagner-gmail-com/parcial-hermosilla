@@ -1,4 +1,4 @@
-<p>formulario-inscripcion works!</p>
+<p>FORMULARIO DE INSCRIPCION DE DATOS DE ALUMNO</p>
 
 <form [formGroup]='alumnoForm'>
     <div class="datosPersona">
@@ -21,4 +21,18 @@
 
     <button mat-stroked-button (click)="onEnviarAlumno()">Enviar Datos de Alumno</button>
 
+    
+
 </form>
+
+<div class="example-container">
+    <mat-form-field appearance="fill">
+      <mat-label>Input</mat-label>
+      <input matInput>
+    </mat-form-field>
+    <br>
+    <mat-form-field appearance="fill">
+      <mat-label>Textarea</mat-label>
+      <textarea matInput></textarea>
+    </mat-form-field>
+  </div>
