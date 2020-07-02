@@ -1,1 +1,22 @@
 <p>formulario-inscripcion works!</p>
+
+<form [formGroup]='alumnoForm'>
+    <div class="datosPersona">
+        <label>Nombre
+            <input type="text" formControlName="nombre">
+        </label>
+        <label>Apellido
+            <input type="text" formControlName="apellido">
+        </label>
+        <label>Edad
+            <input type="text" formControlName="edad">
+        </label>
+        <label>Materia
+            <input type="text" formControlName="materia">
+        </label>
+        <label>Año de Cursada
+            <input type="text" formControlName="añoCursada">
+        </label>
+    </div>
+
+</form>

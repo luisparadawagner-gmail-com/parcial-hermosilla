@@ -7,6 +7,13 @@ import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 import { FormularioInscripcionComponent } from './formulario-inscripcion/formulario-inscripcion.component';
 import { TablaInscriptosComponent } from './tabla-inscriptos/tabla-inscriptos.component';
 
+import { ReactiveFormsModule } from '@angular/forms';
+import { MatMenuModule } from '@angular/material/menu';
+import { MatTableModule } from '@angular/material/table';
+import { MatButtonModule } from '@angular/material/button';
+
+import { HttpClientModule } from '@angular/common/http';
+
 @NgModule({
   declarations: [
     AppComponent,
@@ -16,7 +23,12 @@ import { TablaInscriptosComponent } from './tabla-inscriptos/tabla-inscriptos.co
   imports: [
     BrowserModule,
     AppRoutingModule,
-    BrowserAnimationsModule
+    BrowserAnimationsModule,
+    ReactiveFormsModule,
+    MatMenuModule,
+    MatTableModule,
+    MatButtonModule,
+    HttpClientModule
   ],
   providers: [],
   bootstrap: [AppComponent]

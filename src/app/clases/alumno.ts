@@ -3,4 +3,5 @@ export class Alumno {
     apellido: string;
     edad: number;
     materia: string;
+    añoCursada: string;
 }
